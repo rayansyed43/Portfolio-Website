@@ -355,7 +355,7 @@ section.experience .card-wrapper{
     grid-gap:2rem;
 }
 section.experience .card-wrapper .card{
-    position:relative;
+    position:static;
     height:470px;
 }
 
@@ -406,9 +406,9 @@ section.experience .card-wrapper .card{
     background:var(--pure);
 }
 section.experience .card-wrapper .card .img-wrapper img{
-    width:100%;
-    height:100%;
-    object-fit: cover;
+    width:70%;
+    height:70%;
+    object-fit:scale-down;
 }
 section.experience .card-wrapper .card .card-content{
     padding:1rem;
