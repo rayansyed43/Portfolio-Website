@@ -360,8 +360,8 @@ section.experience .card-wrapper{
 }
 section.experience .card-wrapper .card{
     position:static;
-    height:auto;
-    width:auto;
+    height:100%;
+    width:100%;
 }
 
 section.experience .card-wrapper .card .overlay{
